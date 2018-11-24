@@ -15,6 +15,7 @@ package com.javarush.task.task04.task0424;
 •	Программа должна выводить на экран порядковый номер числа, отличного от остальных.
 •	Если все числа разные, ничего не выводить.
 */
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -23,17 +24,15 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader =
                 new BufferedReader(new InputStreamReader(System.in));
-        int[]myList[3];
-        for (int i = 0; i < 3; i++) {
+        int num1 = Integer.parseInt(reader.readLine());
+        int num2 = Integer.parseInt(reader.readLine());
+        int num3 = Integer.parseInt(reader.readLine());
 
-        array = reader.readLine();
-        int num1=Integer.parseInt(numS1);
-        String numS2 = reader.readLine();
-        int num2=Integer.parseInt(numS2);
-        if ()
-        numS2..
-
-
-
+        if (num1 == num2 && num3 != num1)
+            System.out.println(3);
+        else if (num1 == num3 && num2 != num1)
+            System.out.println(2);
+        else if (num2 == num3 && num1 != num2)
+            System.out.println(1);
     }
 }
