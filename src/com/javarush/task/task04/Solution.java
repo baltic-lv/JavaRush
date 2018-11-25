@@ -13,9 +13,9 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         BufferedReader reader =
                 new BufferedReader(new InputStreamReader(System.in));
-        System.out.print("Enter m= ");
+        System.out.print("Enter m = ");
         int m = Integer.parseInt(reader.readLine());
-        System.out.print("Enter n= ");
+        System.out.print("Enter n = ");
         int n = Integer.parseInt(reader.readLine());
 
         for (int i = 0; i < m; i++) {
