@@ -10,7 +10,7 @@ public class Solution {
                 j++;
             }
 
-            System.out.print(dollar+"\n");
+            System.out.print(dollar + "\n");
             i++;
         }
 
