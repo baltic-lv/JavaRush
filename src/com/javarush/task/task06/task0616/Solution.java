@@ -1,4 +1,4 @@
-package com.javarush.task.task06.task016;
+package com.javarush.task.task06.task0616;
 
 public class Solution {
     public static int step;
