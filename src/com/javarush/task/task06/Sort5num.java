@@ -1,5 +1,5 @@
 package com.javarush.task.task06;
-/*5 numbers sorting, no massives, no algorithms, simply 7 variables*/
+/*5 numbers sorting, no arrays, no algorithms, simply 7 variables*/
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
