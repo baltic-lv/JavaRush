@@ -18,7 +18,8 @@ import java.util.ArrayList;
 /*Я твой самый удачный эксперимент...
 Ты имеешь меня как свой лучший патент
 Да,Я горькая,но Я панацея тебе во спасенье
-Я нужна тебе как есть-без изменения...*/
+Я нужна тебе как есть-без изменения...
+Ты ослабь мне запястья,просто дай мне вздохнуть...*/
 public class FiveStrings {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
