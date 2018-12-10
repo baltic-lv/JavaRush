@@ -1,0 +1,42 @@
+package com.javarush.task.task07.task0720;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+/*Ввести с клавиатуры 2 числа N и M.
+Ввести N строк и заполнить ими список.
+Переставить M первых строк в конец списка.
+Вывести список на экран, каждое значение с новой строки.
+
+Примечание: запрещено создавать больше одного списка.
+*/
+public class MoveMraws {
+    public static void main(String[] args) throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        ArrayList<String> list = new ArrayList<>();
+        //напишите тут ваш код
+        //System.out.println("Enter numbers of num N= ");
+        int N = Integer.parseInt(reader.readLine());
+        //System.out.println("Enter numbers of replace M= ");
+        int M = Integer.parseInt(reader.readLine());
+
+        for (int i = 0; i < N; i++) {
+            list.add(reader.readLine());
+        }
+        for (int i = 0; i < M; i++) {
+            list.add(list.size(), list.get(0));
+            list.remove(0);
+
+        }
+
+
+        for (int j = 0; j < list.size(); j++) {
+            System.out.println(list.get(j));
+        }
+
+
+    }
+}
+
