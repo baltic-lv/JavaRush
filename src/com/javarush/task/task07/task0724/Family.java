@@ -1,4 +1,4 @@
-package com.javarush.task.task07;
+package com.javarush.task.task07.task0724;
 
 /*Создай класс Human с полями имя(String), пол(boolean), возраст(int), отец(Human), мать(Human).
 Создай объекты и заполни их так, чтобы получилось: Два дедушки, две бабушки, отец, мать, трое детей.
@@ -22,7 +22,7 @@ package com.javarush.task.task07;
 •	Выведи созданные объекты на экран.
 
   
- 0*/
+ */
 public class Family {
     public static void main(String[] args) {
         // напишите тут ваш код
