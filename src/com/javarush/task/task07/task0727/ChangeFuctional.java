@@ -12,7 +12,7 @@ import java.util.ArrayList;
 Программа выводит содержимое нового списка на экран.*/
 
 public class ChangeFuctional {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         ArrayList<String> list = new ArrayList<String>();
